@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BDCMicrroService.Entity\BDCMicrroService.Entity.csproj" />
+    <ProjectReference Include="..\BDCMicrroService.Platform\BDCMicrroService.Platform.csproj" />
+    <ProjectReference Include="..\BDCMicrroService.Service.Contract\BDCMicrroService.Service.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

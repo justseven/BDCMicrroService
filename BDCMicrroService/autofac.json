@@ -1,0 +1,7 @@
+{
+    "modules": [
+        {
+            "type": "BDCMicrroService.Service.AutofacModule, BDCMicrroService.Service"
+        }
+    ]
+}
